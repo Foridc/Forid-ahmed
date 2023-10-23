@@ -42,27 +42,39 @@
             <p>Future Plan: Pursue higher studies in Civil Engineering</p>
         </section>
 
-        <section id="skills">
-            <h2>Skills and Learning</h2>
-            <p>1. Basic Programming</p>
-            <p>2. Engineering</p>
-            <p>3. [Your additional skills]</p>
-        </section>
-
         <section id="blog">
             <h2>Islamic Blog</h2>
             <article>
-                <h3>Blog Post Title 1</h3>
-                <p>Published on [Date]</p>
-                <p>This is the content of the first blog post related to Islamic topics. You can share your thoughts, insights, and knowledge here.</p>
+                <h3>Blog Post Islamic story of beauty</h3>
+                <p>Published on [23-10-2023]</p>
+                <p> আমাদের মুসলিম সভ্যতার অসংখ্য রাষ্ট্র গুলো যুগ যুগ ধরে শেষ করে দেওয়া হয়েছে ভিন্ন যুদ্ধে।
+যেমন সিরিয়া, ইরাক, মিশর, ফিলিস্তিন এইগুলাতে এমন এমন শহর রয়েছে যেইগুলার বয়স ২০০০ বছরের ও বেশী।
+এইগুলোও যদি এইভাবে ধ্বংসস্তূপ এ পরিনত না করা হতো।
+তাহলে এই মুসলিম জাতির যেখানে উত্থান হয়েছিলো সেই জায়গা গুলো হতো পৃথিবীর সবচেয়ে আধুনিক জায়গা।
+মুসলিমরা কখনো গবেষণা দিয়ে তখনকার সময়ে পিছিয়ে ছিলো না অনেক কিছুতেই এগিয়ে ছিলো এজন্য চক্ষুসুল এ পরিনত হয়েছিলো ভিন্ন সাম্রাজ্যবাধীদের।
+আবার পৃথিবীর শেষ এর দিকে সব কিছুই ফিরে আসবে।
+বর্তমান সময়টা হয়তোবা সৃষ্টিকর্তা কঠিন করে তুলেছেন সকলের ঈমান এর পরীক্ষা নেওয়া জন্য এই যাত্রায় যারা সফল হবে তারাই আখেরাতে সফল।
+আল্লাহ আমাদের পুরো পৃথিবীকে শান্ত করে দিক সব দিকে ছড়িয়ে যাক শান্তি এটাই কামনা।</p>
+                <div class="blog-interactions">
+                    <button class="like-button" onclick="likePost(1)">Like</button>
+                    <button class="dislike-button" onclick="dislikePost(1)">Dislike</button>
+                    <span class="likes-count">0 Likes</span>
+                    <button class="comment-button" onclick="openComments(1)">Comments</button>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=your-blog-post-url" target="_blank">
+                        <button class="share-button">Share on Facebook</button>
+                    </a>
+                </div>
+                <div class="comments-section" style="display: none;">
+                    <h4>Comments</h4>
+                    <ul class="comments-list">
+                        <!-- You can add comments here -->
+                    </ul>
+                    <textarea class="comment-input" placeholder="Add a comment"></textarea>
+                    <button class="add-comment-button" onclick="addComment(1)">Add Comment</button>
+                </div>
             </article>
 
-            <article>
-                <h3>Blog Post Title 2</h3>
-                <p>Published on [Date]</p>
-                <p>This is the content of the second blog post about Islamic matters.</p>
-            </article>
-            <!-- You can add more blog posts following the same structure -->
+            <!-- Add more articles with similar structures for additional blog posts -->
         </section>
         
         <section id="contact">
@@ -81,3 +93,22 @@
     </footer>
 </body>
 </html>
+
+<script>
+// JavaScript functions for handling interactions
+function likePost(postId) {
+    // Implement your logic for liking a post here
+}
+
+function dislikePost(postId) {
+    // Implement your logic for disliking a post here
+}
+
+function openComments(postId) {
+    // Show/hide the comments section for the specific post
+}
+
+function addComment(postId) {
+    // Implement your logic to add a comment to the specified post
+}
+</script>
