@@ -5,6 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forid Ahmed's Personal Website</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #0073e6;
+        }
+        .content {
+            padding: 15px;
+        }
+        h2 {
+            background-color: #333;
+            color: white;
+            padding: 8px;
+            margin: 0;
+            font-size: 20px;
+        }
+        p {
+            line-height: 1.4;
+            font-size: 14px;
+        }
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+        }
+        .comments-section {
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+        .blog-interactions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .like-button,
+        .dislike-button,
+        .comment-button,
+        .share-button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 12px;
+        }
+        .like-button:hover,
+        .dislike-button:hover,
+        .comment-button:hover,
+        .share-button:hover {
+            background-color: #005cbf;
+        }
+        .comment-input {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .add-comment-button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 12px;
+        }
+        .add-comment-button:hover {
+            background-color: #005cbf;
+        }
+        footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #333;
+            color: white;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -31,7 +141,7 @@
             <p>Birth: February 2, 2004</p>
             <p>Religion: Islam</p>
             <p>Country: Bangladesh</p>
-            <p>Present Location: Mymensingh</p> <!-- Added present location -->
+            <p>Present Location: Mymensingh</p>
             <p>Relationship Status: Single</p>
         </section>
 
@@ -45,21 +155,23 @@
         <section id="blog">
             <h2>Islamic Blog</h2>
             <article>
-                <h3>Blog Post Islamic story of beauty</h3>
+                <h3>Blog Post Islamic Story of Beauty</h3>
                 <p>Published on [23-10-2023]</p>
-                <p> আমাদের মুসলিম সভ্যতার অসংখ্য রাষ্ট্র গুলো যুগ যুগ ধরে শেষ করে দেওয়া হয়েছে ভিন্ন যুদ্ধে।
+                <p>আমাদের মুসলিম সভ্যতার অসংখ্য রাষ্ট্র গুলো যুগ যুগ ধরে শেষ করে দেওয়া হয়েছে ভিন্ন যুদ্ধে।
 যেমন সিরিয়া, ইরাক, মিশর, ফিলিস্তিন এইগুলাতে এমন এমন শহর রয়েছে যেইগুলার বয়স ২০০০ বছরের ও বেশী।
 এইগুলোও যদি এইভাবে ধ্বংসস্তূপ এ পরিনত না করা হতো।
 তাহলে এই মুসলিম জাতির যেখানে উত্থান হয়েছিলো সেই জায়গা গুলো হতো পৃথিবীর সবচেয়ে আধুনিক জায়গা।
 মুসলিমরা কখনো গবেষণা দিয়ে তখনকার সময়ে পিছিয়ে ছিলো না অনেক কিছুতেই এগিয়ে ছিলো এজন্য চক্ষুসুল এ পরিনত হয়েছিলো ভিন্ন সাম্রাজ্যবাধীদের।
 আবার পৃথিবীর শেষ এর দিকে সব কিছুই ফিরে আসবে।
 বর্তমান সময়টা হয়তোবা সৃষ্টিকর্তা কঠিন করে তুলেছেন সকলের ঈমান এর পরীক্ষা নেওয়া জন্য এই যাত্রায় যারা সফল হবে তারাই আখেরাতে সফল।
-আল্লাহ আমাদের পুরো পৃথিবীকে শান্ত করে দিক সব দিকে ছড়িয়ে যাক শান্তি এটাই কামনা।</p>
+আল্লাহ আমাদের পুরো পৃথিবীকে শান্ত করে দিক সব দিকে ছড়িয়ে যাক শান্তি এটাই কামনা। </p>
                 <div class="blog-interactions">
                     <button class="like-button" onclick="likePost(1)">Like</button>
+                    <span class="likes-count" id="like-count-1">0 Likes</span>
                     <button class="dislike-button" onclick="dislikePost(1)">Dislike</button>
-                    <span class="likes-count">0 Likes</span>
+                    <span class="dislikes-count" id="dislike-count-1">0 Dislikes</span>
                     <button class="comment-button" onclick="openComments(1)">Comments</button>
+                    <span class="view-count" id="view-count-1">0 Views</span>
                     <a href="https://www.facebook.com/sharer/sharer.php?u=your-blog-post-url" target="_blank">
                         <button class="share-button">Share on Facebook</button>
                     </a>
@@ -91,24 +203,20 @@
     <footer>
         <p>&copy; 2023 Forid Ahmed's Personal Website</p>
     </footer>
+
+    <script>
+        let likesCount = 0;
+        let dislikesCount = 0;
+
+        function likePost(postId) {
+            likesCount++;
+            document.getElementById('like-count-' + postId).textContent = likesCount + ' Likes';
+        }
+
+        function dislikePost(postId) {
+            dislikesCount++;
+            document.getElementById('dislike-count-' + postId).textContent = dislikesCount + ' Dislikes';
+        }
+    </script>
 </body>
 </html>
-
-<script>
-// JavaScript functions for handling interactions
-function likePost(postId) {
-    // Implement your logic for liking a post here
-}
-
-function dislikePost(postId) {
-    // Implement your logic for disliking a post here
-}
-
-function openComments(postId) {
-    // Show/hide the comments section for the specific post
-}
-
-function addComment(postId) {
-    // Implement your logic to add a comment to the specified post
-}
-</script>
