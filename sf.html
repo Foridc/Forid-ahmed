@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=l, initial-scale=1.0">
+    <title>Forid Ahmed's Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {IllegalMonitorStateException
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #0073e6;
+        }
+        .content {
+            padding: 15px;
+        }
+        h2 {
+            background-color: #333;
+            color: white;
+            padding: 8px;
+            margin: 0;
+            font-size: 20px;
+        }
+        p {
+            line-height: 1.4;
+            font-size: 14px;
+        }
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+        }
+        .comments-section {
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+        .blog-interactions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .like-button,
+        .dislike-button,
+        .comment-button,
+        .share-button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 12px;
+        }
+        .like-button:hover,
+        .dislike-button:hover,
+        .comment-button:hover,
+        .share-button:hover {
+            background-color: #005cbf;
+        }
+        .comment-input {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .add-comment-button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 12px;
+        }
+        .add-comment-button:hover {
+            background-color: #005cbf;
+        }
+        footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #333;
+            color: white;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        /* Additional CSS for styling your content goes here */
+        /* Example styles: */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .likes-count,
+        .dislikes-count {
+            font-weight: bold;
+        }
+        .comments-section h4 {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Updated CSS for skills */
+        #skills {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: white;
+        }
+        .skills-list {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website (FS)</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills and Learning</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>About Me</h2>     <section id="profile">
+    
+    
+    <!-- Other profile details -->
+    <img src="forids/FB_IMG_16923483327056661.jpg" alt="Forid Ahmed's Profile Picture" width="250">
+</section>
+        <p>Assalamualaikum and welcome to my personal website. I'm Forid Ahmed, and I'm excited to share my journey, skills, and insights with you.</p>
+        
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Name: Forid Ahmed</p>
+            <p>Birth: February 2, 2004</p>
+            <p>Religion: Islam</p>
+            <p>Country: Bangladesh</p>
+            <p>Present Location: Mymensingh</p>
+            <p>Relationship Status: Single</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>School: Latu Mondol High School</p>
+            <p>Institute: Diploma in Civil Engineering</p>
+            <p>Future Plan: Pursue higher studies in Civil Engineering</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills and Learning</h2>
+            <ul class="skills-list">
+                <li>Basic Programming</li>
+                <li>Engineering</li>
+                <li>Blog Writing</li>
+                <li>Communication</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Islamic Blog</h2>
+            <article>
+                <h3>Blog Post 1: Islamic Story of Beauty</h3>
+                <p>Published on 23-10-2023</p>
+                <p> ইসলামের ইতিহাস বলতে ইসলাম ধর্মের উদ্ভবের পর থেকে বর্তমান সময় পর্যন্ত সময়কালপঞ্জী অনুসারে ইসলামের ইতিহাস, ইসলামি সভ্যতার রাজনৈতিক, সামাজিক, অর্থনৈতিক ও সাংস্কৃতিক উন্নয়নকে বুঝানো হয়। অধিকাংশ ঐতিহাসিক[১] স্বীকার করেন যে খ্রিস্টীয় ৭ম শতাব্দীর শুরুতে মক্কা ও মদিনায় ইসলামের সূত্রপাত হয়। মুসলমানরা ইসলামকে ঈসা, সুলায়মান, দাউদ, মূসা, ইব্রাহিম, নূহ এবং আদমের মত নবীদের মূল বিশ্বাসের প্রত্যাবর্তন।[২][৩] মুসলমানরা বিশ্বাস করে আদিকাল থেকেই অর্থাৎ প্রথম মানব আদমের সময় থেকেই ইসলাম ধর্মের প্রচলন শুরু হয়।
+
+৬১০ খ্রিস্টাব্দে ইসলাম ধর্মের সর্বশেষ নবী মুহাম্মাদের কাছে আল্লাহর পক্ষ থেকে কুর-আন নাযিল হতে থাকে যা মুসলমানরা আল্লাহর ওহী হিসাবে বিশ্বাস করে, সেখানে এক আল্লাহর কাছে নতি স্বীকার করার, আসন্ন শেষ বিচারের প্রতীক্ষা এবং গরিব ও অভাবগ্রস্তদের যত্ন নেওয়ার আহ্বান জানানো হয়েছে।[৪] মুহাম্মদের প্রাপ্ত এই বাণী কিছু মুষ্টিমেয় অনুগামীগণ গ্রহণ করে এবং মক্কার বেশিরভাগ মানুষের ক্রমবর্ধমান বিরোধিতার মুখোমুখি হয়।[৫] ৬২২ সালে তার প্রভাবশালী চাচা আবু তালিবের মৃত্যুর ফলে নিরাপত্তা হারানোর কয়েক বছর পর মুহাম্মদ ইয়াসরিব (বর্তমানে মদিনা নামে পরিচিত) শহরে হিজরত করেন। ৬৩২ সালে মুহাম্মাদের ওফাতের পর রাশিদুন খিলাফতের সময় কে মুসলিম রাষ্ট্র প্রতিষ্ঠা করেন।
+
+অষ্টম শতাব্দীর মধ্যে উমাইয়া খিলাফত পশ্চিমে আইবেরিয়া থেকে পূর্বে সিন্ধু নদ পর্যন্ত বিস্তৃতি লাভ করে। উমাইয়া ও আব্বাসীয় খিলাফত (মধ্যপ্রাচ্যে এবং পরে স্পেন ও দক্ষিণ ইতালি), ফাতিমীয়, সেলযুক, আইয়ুবীয় এবং মামলুকদের দ্বারা শাসিত রাষ্ট্রগুলো বিশ্বের প্রভাবশালী শক্তি ছিল। সামানি সাম্রাজ্য, গজনভি রাজবংশ, ঘুরি সাম্রাজ্য নিজেদের প্রতিষ্ঠিত সাম্রাজ্যে উল্লেখযোগ্য উন্নয়ন করেছে। ইসলামি স্বর্ণযুগে সংস্কৃতি ও বিজ্ঞানের অনেক ক্ষেত্র বিকাশ লাভ করে এবং মধ্যযুগে উল্লেখযোগ্য পলিম্যাথ, জ্যোতির্বিদ, গণিতবিদ, চিকিৎসক এবং দার্শনিকের জন্ম হয়।
+
+ত্রয়োদশ শতাব্দীর গোড়ার দিকে দিল্লী সালতানাত ভারতীয় উপমহাদেশের উত্তর অংশ জয় করে, যখন রুম সালতানাত ও আর্তুকলু বেইলিক এর মতো তুর্কি রাজবংশগুলি একাদশ ও দ্বাদশ শতাব্দী জুড়ে বাইজান্টাইন সাম্রাজ্য থেকে আনাতোলিয়ার বেশিরভাগ জয় করে। ত্রয়োদশ এবং চতুর্দশ শতাব্দীতে ধ্বংসাত্মক মঙ্গোলদের আক্রমণ এবং পূর্ব দিক থেকে তৈমুর লং এর আক্রমণের সাথে কালো মড়কে জনগণের প্রাণহানির ফলে পারস্য থেকে মিশর পর্যন্ত বিস্তৃত মুসলিম বিশ্বের ঐতিহ্যবাহী নগরকেন্দ্রগুলিকে অত্যন্ত দুর্বল করে ফেলে, কিন্তু একই সময়ে তিমুরিদ রেনেসাঁ নবজাগরণ এবং পশ্চিম আফ্রিকার মালি সাম্রাজ্য এবং দক্ষিণ এশিয়ার বাংলা সালতানাতের মতো বড় বড় বিশ্ব অর্থনৈতিক শক্তি উদ্ভব ঘটে।[৬][৭][৮] সিসিলি আমিরাত এবং অন্যান্য ইতালীয় অঞ্চল থেকে মুসলিম মুররা বিতাড়িত ও দাসত্বে পরিনত হওয়ার ফলে[৯] রিকনকোয়েস্টার সময় ইসলামি স্পেন ধীরে ধীরে খ্রিস্টান বাহিনী দখল করে নেয়। তা সত্ত্বেও প্রারম্ভিক আধুনিক যুগে ইসলামি বারুদ যুগের রাষ্ট্র উসমানীয় তুর্কি, সাফাবি ইরান ও মুঘল ভারতের মতো মহান বিশ্ব শক্তি হিসাবে আবির্ভূত হয়েছিলো।
+
+উনবিংশ ও বিংশ শতকের গোড়ার দিকে ইসলামি বিশ্বের বেশিরভাগ অংশ ইউরোপীয় "বৈশ্বিক শক্তি"-এর প্রভাব বা প্রত্যক্ষ নিয়ন্ত্রণে চলে যায়। বিগত দুই শতাব্দীর পরিক্রমায় স্বাধীনতা অর্জন এবং আধুনিক রাষ্ট্র গঠনে তাদের প্রচেষ্টা আজ অবধি অব্যাহত রয়েছে, পাশাপাশি ফিলিস্তিন, কাশ্মীর, জিনজিয়াং, চেচনিয়া, মধ্য আফ্রিকা, বসনিয়া এবং মিয়ানমারের মতো অঞ্চলে সংঘাতময়-অঞ্চল তৈরি হয়েছে। তেলের উত্থান পারস্য উপসাগরের আরব রাষ্ট্রগুলোকে স্থিতিশীল করে তাদেরকে বিশ্বের বৃহত্তম তেল উৎপাদনকারী ও রফতানিকারক দেশে পরিনত করেছে, যা মুক্ত বাণিজ্য ও পর্যটনকে আকর্ষণ করে।
+                           Collect by google
+</p>
+                <div class="blog-interactions">
+                    <button class="like-button" onclick="likePost(1)">Like</button>
+                    <span class="likes-count" id="like-count-1">0 Likes</span>
+                    <button class="dislike-button" onclick="dislikePost(1)">Dislike</button>
+                    <span class="dislikes-count" id="dislike-count-1">0 Dislikes</span>
+                    <button class="comment-button" onclick="openComments(1)">Comments</button>
+                    <span class="view-count" id="view-count-1">0 Views</span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=your-blog-post-url" target="_blank">
+                        <button class="share-button">Share on Facebook</button>
+                    </a>
+                </div>
+                <div class="comments-section" style="display: none;">
+                    <h4>Comments</h4>
+                    <ul class="comments-list">
+                        <!-- You can add comments here -->
+                    </ul>
+                    <textarea class="comment-input" placeholder="Add a comment"></textarea>
+                    <button class="add-comment-button" onclick="addComment(1)">Add Comment</button>
+                </div>
+            </article>
+
+            <article>
+                <h3>Blog Post 2: একটি ক্ষেত্রের জনক বা আবিষ্কারক হিসেবে মুসলিম পণ্ডিতদের তালিকা
+
+ Islamic History</h3>
+                <p>Published on 24-10-2023</p>
+                <p>  নিম্নলিখিত মধ্যযুগীয় ইসলামী সভ্যতার আন্তর্জাতিকভাবে স্বীকৃত মুসলিম বিজ্ঞানীদের একটি তালিকা রয়েছে, যাদের কিছু আধুনিক পণ্ডিতরা একটি ক্ষেত্রের জনক বা প্রতিষ্ঠাতা হিসাবে বর্ণনা করেছেন:
+    ইসলামী স্বর্ণযুগের গুরুত্বপূর্ণ ব্যক্তিত্বগণ; উপর থেকে ঘরির কাটার দিকে:
+
+আল-জাহরাবি, আব্বাস ইবনে ফিরনাস, আল-বেরুনী, ইবনে সিনা, ইবনে রুশদ, ইবনুন নাফিস, আল-খারেজমি, ইবনুল হায়সাম, ইবনে খালদুন
+
+আবুল কাসিম জাহরাবি, "আধুনিক অস্ত্রোপচারের জনক"[১] এবং "অপারেটিভ সার্জারির জনক"।[২]
+
+ইবনুন নাফিস, "রক্তসংবহন ফিজিওলজি এবং অ্যানাটমির জনক"।[৩][৪][৫][৬]
+
+আব্বাস ইবনে ফিরনাস, "মধ্যযুগীয় বিমান চালনার জনক"।[৭][৮][৯]
+
+হাসান ইবনুল হায়সাম, "আধুনিক আলোকবিদ্যার জনক"।[১০][১১][১২]
+
+জাবির ইবনে হায়য়ান, "রসায়নের জনক" বা "আরব রসায়নের জনক" বা "প্রাথমিক রসায়নের জনক" এবং উচ্চতর গণিতের জনক ।[১৩][১৪]
+
+ইবনে খালদুন, সমাজবিজ্ঞান, হিস্তোরিওগ্রাফি এবং আধুনিক অর্থনীতির জনক।[১৫][১৬] তিনি তার মুকাদ্দিমা জন্য সর্বাধিক পরিচিত।[১৭]
+
+ইবনে সিনা, ব্যাপকভাবে প্রাথমিক আধুনিক ঔষধের জনক এবং সেইসাথে ক্লিনিকাল ফার্মাকোলজির জনক হিসাবে গণ্য করা হয়।[১৮] তাঁর সবচেয়ে বিখ্যাত কাজ হল কানুন ফিততিব।[১৯][২০]
+
+'আলী ইবনুল-আব্বাস আল-মাজুসি, তিনি হ্যালি আব্বাস নামে পরিচিত, "অ্যানাটমিক ফিজিওলজির প্রতিষ্ঠাতা "।[২১] এছাড়াও, তার কামিল আস-সিনা'আত-তিবিয়াহ-এ চর্মবিজ্ঞান উপর বিভাগে তাকে "আরবি চর্মবিজ্ঞানের জনক" হিসাবে বিবেচনা করার মতো একজন পণ্ডিত রয়েছেন।[২২]
+
+আল-বিরুনি, "ভারতবিদ্যার প্রতিষ্ঠাতা",[২৩] "জনক তুলনামূলক ধর্মতত্ত্ব[২৪] ও ভূগণিতের" এবং একাদশ শতাব্দীর প্রথম দিকে তিনি ভারতের উল্লেখযোগ্যতা বর্ণনা করার জন্য "প্রথম নৃতাত্ত্বিক" শিরোনাম পরিচিত।[২৫][২৬] জর্জি মরগেনস্টেরিন তাঁকে "মানব সংস্কৃতিতে তুলনামূলক গবেষণার প্রতিষ্ঠাতা" হিসাবে বিবেচনা করেছিলেন।[২৭] আল-বিরুনি "ইসলামিক ফার্মাসির জনক" হিসাবেও পরিচিত।[২৮][২৯][৩০]
+
+মুহাম্মাদ ইবনে মুসা আল-খারেজমি "বীজগণিতের জনক" হিসেবে সর্বাধিক খ্যাত।[৩১] আল-খারেজমি গণিতের ক্ষেত্রে এত বড় প্রভাব ফেলেছিলেন যে এটি তার জন্য 'অ্যালগরিদম' এবং 'বীজগণিত' শব্দটিকে দায়ী করে।[৩২][৩৩][৩৪][৩৫]
+
+ইবনে হাজম, তুলনামূলক ধর্মতত্ত্বের জনক এবং "তুলনামূলক ধর্মতত্ত্বের বিজ্ঞানের প্রতিষ্ঠাতা হিসেবে পাশ্চাত্যে সম্মানিত"।[৩৬] আলফ্রেড গিলিয়াম তাকে "পুরাতন ও নবীন পদ্ধতিগত উচ্চতর সমালোচনামূলক অধ্যয়ন" এর সুরকার বলে উল্লেখ করেছেন।[৩৭] যাইহোক, ইতিহাসবিদ উইলিয়াম মন্টগোমেরি ওয়াট এই দাবি নিয়ে বিতর্ক করে বলেন যে, ইবনে হাজমের কাজের আগে আরবি ভাষায় কাজ করা হয়েছিল এবং "লক্ষ্য ছিল বিতর্কমূলক এবং বর্ণনামূলক নয়"।[৩৮]
+
+আল ফারাবী, "ইসলামী/আরব নয়াপ্লাতোবাদের প্রতিষ্ঠাতা"[৩৯][৪০] এবং কেউ কেউ "ইসলামিক বিশ্বে আনুষ্ঠানিক যুক্তির জনক" হিসেবে বিবেচিত করে থাকেন।[৪১][৪২][৪৩]
+
+মুহাম্মাদ আল-ইদ্রিসি, "বিশ্ব মানচিত্রের জনক", যিনি সর্বপ্রথম বিশ্বের মানচিত্র তৈরি করেন।[৪৪][৪৫]
+
+ইবনে রুশদ (১১২৬–১১৯৮), পশ্চিমে ধারাভাষ্যকার নামে পরিচিত, "মুক্ত চিন্তা ও অবিশ্বাসের জনক"[৪৬][৪৭] এবং কেউ কেউ তাকে "যুক্তিবাদের জনক"[৪৮] এবং "পশ্চিম ইউরোপে ধর্মনিরপেক্ষ চিন্তার প্রতিষ্ঠাতা জনক" হিসেবে বর্ণনা করেছেন।[৪৯][৫০][৫১][৫২] আর্নেস্ট রেনান ইবনে রুশদকে পরম যুক্তিবাদী বলে অভিহিত করেন এবং তাকে মুক্তচিন্তা ও ভিন্নমতের জনক হিসেবে বিবেচনা করেন।[৫৩]
+
+আল রাযী, তার শিশুদের রোগের সম্পর্কিত দিসিজেস ইন চিল্ড্রেন গ্রন্থটির জন্য অনেককে তাকে "পেডিয়াট্রিক্সের জনক" বা "শিশুরোগবিদ্যা জনক" বলে মনে করেছেন।[৫৪][৫৫][৫৬] "ইসলামে ক্লিনিকাল মেডিসিনের প্রকৃত প্রতিষ্ঠাতা" হিসাবেও তিনি প্রশংসিত হয়েছেন।[৫৭]
+
+মুহাম্মদ আল শায়বানী, মুসলিম আন্তর্জাতিক আইনের জনক।[৫৮][৫৯]
+
+ইসমাইল আল-জাযারি, অটোম্যাটন এবং রোবোটিক্সের জনক।[৫৮][৬০]
+
+ইয়াহিয়া ইবনে হাবাশ সোহরাওয়ার্দী, ইসলামী দর্শনের আলোকসজ্জাবাদীর প্রতিষ্ঠাতা।[৬১][৬২]
+
+নাসিরুদ্দীন তুসী, "ত্রিকোণমিতির জনক" তার নিজের হাতে গাণিতিক শৃঙ্খলা হিসাবে।[৬৩][৬৪][৬৫]
+
+সাইয়েদ হোসেইন নসর, ইসলামী বাস্তুবিদ্যার 'প্রতিষ্ঠাতা পিতা'।[৬৬][৬৭][৬৮]
+
+এটি একটি মুসলিম বিজ্ঞানীদের তালিকা যারা ইসলামি স্বর্ণযুগে বিজ্ঞান ও সভ্যতায় উল্লেখযোগ্য অবদান রেখেছেন (অর্থাৎ ৮ম শতাব্দী থেকে চতুর্দশ শতাব্দী পর্যন্ত)।মুহি আল-দীন আল-মাগরীবি
+
+মুয়াইয়াদ আল-দীন আল-উরদি
+
+মুহাম্মদ বাকির ইয়াজদি
+
+নাসিরুদ্দীন তুসী
+
+কাদি জাদা আল-রুমি
+
+কুতুব আল-দীন আল-শিরাজী
+
+শামস আল-দীন আল-সমরকান্দি
+
+শারফ আল-দীন আল-তুসি
+
+তাক্বী আদ দীন
+
+উলুগ বেগ
+
+আল-সামাওয়াল আল-মাগরিবি
+
+</p>
+                <div class="blog-interactions">
+                    <button class="like-button" onclick="likePost(2)">Like</button>
+                    <span class="likes-count" id="like-count-2">0 Likes</span>
+                    <button class="dislike-button" onclick="dislikePost(2)">Dislike</button>
+                    <span class="dislikes-count" id="dislike-count-2">0 Dislikes</span>
+                    <button class="comment-button" onclick="openComments(2)">Comments</button>
+                    <span class="view-count" id="view-count-2">0 Views</span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=your-blog-post-url" target="_blank">
+                        <button class="share-button">Share on Facebook</button>
+                    </a>
+                </div>
+                <div class="comments-section" style="display: none;">
+                    <h4>Comments</h4>
+                    <ul class="comments-list">
+                        <!-- Comments for the second post (You can add comments here) -->
+                    </ul>
+                    <textarea class="comment-input" placeholder="Add a comment"></textarea>
+                    <button class="add-comment-button" onclick="addComment(2)">Add Comment</button>
+                </div>
+            </article>
+
+            <article>
+                <h3>Blog Post 3: Islamic history</h3>
+                <p>Published on 25-10-2023</p>
+                <p>   ইসলামিক ঐতিহ্য ও আচারানুষ্ঠান ছিল ধর্মশাস্ত্র ও ধর্মীয়গ্রন্থ কেন্দ্রিক। কোরআন,হাদিস এবং অন্যান্য ধর্মীয় শিক্ষার ব্যাপক প্রসারতার কারণে মূলত তখন শিক্ষা ছিল ধর্মের প্রধান বুনিয়াদ এবং তা ইসলামের ইতিহাসে জায়গা করে নিয়েছে।[৪১] ইসলাম ধর্মে শিক্ষালাভ ও জ্ঞানার্জনের গুরুত্ব বুঝাতে অনেক বিজ্ঞ ব্যক্তির বচন উল্লেখ রয়েছে।এগুলো মধ্যে একটি হলো, "জ্ঞানার্জনের জন্যে সুদূর চীন দেশ হলেও যাও"। এই সংশ্লিষ্ট হাদিস এবং এ জাতীয় বিভিন্ন বিধিধারা বিশেষভাবে মুসলিম পন্ডিতগণ এবং বিশ্বব্যাপি মুসলিমদের মাঝে প্রয়োগ ও প্রসার করতে দেখা গিয়েছিল।উল্লেখ্যসরূপ, শিক্ষা নিয়ে আল-জারনুযি-এর একটি উক্তি ছিল,বিদ্যার্জন করা আমাদের প্রত্যেকের জন্য যথাবিহিত ও বাধ্যতামূলক। প্রাক-আধুনিক কালের ইসলামি সাম্রজ্যের শিক্ষার হার নির্ণয় করা অসম্ভব হলেও এটা নিশ্চিত করে বলা যায় যে তারা শিক্ষাক্ষেত্রে ও জ্ঞানার্জনে তুলনামূলকভাবে অনেক উচ্চস্তরে ছিল।বিশেষ করে তাদের সাথে তৎকালিন ইউরোপিয় পন্ডিতদের তুলনা করলে ইসলামিক পন্ডিতদের জ্ঞানের সকল ক্ষেত্রে অগ্রগতি দেখা যায়। সবাই ছোটবয়স থেকে শিক্ষার্জন করা শুরু করতো আরবি এবং কোরআন শিক্ষার পাশাপাশি; হয়ত বাড়িতে না হয় কোন প্রাথমিক বিদ্যালয়ে।যেটা কোন মসজিদের সাথে সম্পৃক্ত থাকত।তারপর অনেক শিক্ষার্থী তাফসীর(ইসলামিক ব্যাখ্যা-বিশ্লেষন) এবং ফিকহ(ইসলামিক মাসায়ালা) বিষয়ে অধ্যয়ন ও প্রশিক্ষণ গ্রহণ করতো।এসব শিক্ষাকেও যথাযথ গুরুত্বের সহিত দেখা হতো।শিক্ষাব্যাবস্থা ছিল মুখস্থকরা কেন্দ্রিক। কিন্তু এছাড়াও অগ্রগতিশীল মেধাবী শিক্ষার্থীদের পাঠ্যগ্রন্থসমূহের প্রণেতা ও ব্যাখ্যা-বিশ্লেষনের ক্ষেত্রে পাঠক ও লেখক হিসেবে প্রশিক্ষণ দেয়া হতো। এই প্রক্রিয়া সকল উচ্চাকাঙ্খী শিক্ষার্থীদের সামাজিকীকরণ প্রক্রিয়ার জড়িত রাখত।ফলঃশ্রুতিতে উলামাদের তালিকায় তাদের সবধরনের সামাজিক ব্যাকগ্রাউন্ড ছিল। [৪২] ১১শ শতাব্দীর আগে এই শিক্ষা ব্যবস্থা প্রাতিষ্ঠানিকরুপ লাভ করেনি। ১২শ শতাব্দীর দিকে শাসকদের দ্বারা মাদ্রাসা নামক শিক্ষা প্রতিষ্ঠানের যাত্রা শুরু হয়। যেখানে ইসলাম সম্পর্কে উচ্চতর শিক্ষার আলো ছড়ানো হতো।[৪১] যখন মাদ্রাসার প্রাতিষ্ঠানিক শিক্ষা শুধু পুরুষদের জন্য উন্মুক্ত ছিলো তখন নারীরা তাদের পরিবারে ব্যক্তিগণ তত্তাবধানে দ্বীনের জ্ঞান অর্জন করতে থাকে। পরে তাদের হাদিস অধ্যায়ন, ক্যালিগ্রাফি আকা ও কবিতা আবৃত্তির শরীয়াহ সম্মত অনুমতি প্রদান করা হয়।[৪৩][৪৪]</p>
+                <div class="blog-interactions">
+                    <button class="like-button" onclick="likePost(3)">Like</button>
+                    <span class="likes-count" id="like-count-3">0 Likes</span>
+                    <button class="dislike-button" onclick="dislikePost(3)">Dislike</button>
+                    <span class="dislikes-count" id="dislike-count-3">0 Dislikes</span>
+                    <button class="comment-button" onclick="openComments(3)">Comments</button>
+                    <span class="view-count" id="view-count-3">0 Views</span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=your-blog-post-url" target="_blank">
+                        <button class "share-button">Share on Facebook</button>
+                    </a>
+                </div>
+                <div class="comments-section" style="display: none;">
+                    <h4>Comments</h4>
+                    <ul class="comments-list">
+                        <!-- Comments for the third post (You can add comments here) -->
+                    </ul>
+                    <textarea class="comment-input" placeholder="Add a comment"></textarea>
+                    <button class="add-comment-button" onclick="addComment(3)">Add Comment</button>
+                </div>
+            </article>
+            <!-- Add more articles with similar structures for additional blog posts -->
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>connect:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100029673194176">Facebook</a></li>
+                <li><a href="mailto:foridahmed380@gmail.com">Gmail</a></li>
+                <li>Phone Number: 01308039178</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Forid Ahmed's Personal Websitey</p>
+    </footer>
+
+    <script>
+        let likesCount = 0;
+        let dislikesCount = 0;
+        function likePost(postId) {
+            likesCount++;
+            document.getElementById('like-count-' + postId).textContent = likesCount + ' Likes';
+        }
+        function dislikePost(postId) {
+            dislikesCount++;
+            document.getElementById('dislike-count-' + postId).textContent = dislikesCount + ' Dislikes';
+        }
+        // You can add JavaScript functions for handling comments and views here.
+    </script>
+</body>
+</html>
